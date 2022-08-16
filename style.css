@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+
+    /* Primary */
+
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+
+    /* Accent */
+
+    --Blue: hsl(248, 32%, 49%);
+
+    /* Neutral */
+
+    --DarkBlue: hsl(249, 10%, 26%);
+    --GrayishBlue: hsl(246, 25%, 77%);
+
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bgColor {
+    background-color: var(--Red);
+    background-image: url(./images/bg-intro-desktop.png);
+}
+
+.bgPurple {
+    background-color: var(--Blue);
+}
+
+.bgGreen {
+    background-color: var(--Green);
+}
+
+.bgGreen:hover {
+    background-color: hsl(154, 75%, 70%);
+}
+
+.fssmall {
+    font-size: 10px;
+}
+
+.pos1 {
+    top: 2rem;
+    right: 2rem;
+}
+
+.pos1text {
+    top: 4.25rem;
+    right: 2rem;
+}
+
+.pos2 {
+    top: 5.75rem;
+    right: 2rem;
+}
+
+.pos2text {
+    top: 8rem;
+    right: 2rem;
+}
+
+.pos3 {
+    top: 9.5rem;
+    right: 2rem;
+}
+
+.pos3text {
+    top: 11.5rem;
+    right: 2rem;
+}
+
+.pos4 {
+    top: 13.25rem;
+    right: 2rem;
+}
+
+.pos4text {
+    top: 15.25rem;
+    right: 2rem;
+}
